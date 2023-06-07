@@ -2,8 +2,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<title>Soft Formance Test Task</title>
+		<title>Soft Formance Trial Task</title>
 		<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 	<body>
@@ -13,20 +16,45 @@
 				</a>
 		</header>
 		<main>
-			<section class="hero">
-				<h1 class="heading">Testimonials</h1>
-				<h2 class="sub__heading">What our clients say about us</h2>
-				<section class="slider">
-					<article>
-						<div class="">
+			<section class="hero container">
+				<h1 class="hero__heading">Testimonials</h1>
+				<h2 class="hero__sub--heading">What our clients say about us</h2>
+				<section class="hero__article carousel">
+					<article class="hero__article--item">
+						<div class="hero__article--text">
 							<p>I have worked with a number of software developers before but none of them quite reached the level of professionalism, diligence and enthusiasm that I experienced with Vitaliy and his team. They are incredibly easy to work with and almost always find great programming solutions to our requirements.</p>
 							<p>What I especially liked about the SoftFormance team is their passion and understanding for our project. It’s like working with friends. Friends that deliver on their promises. I have nothing but praise for the work of SoftFormance team and look forward to working with this agency in the future.</p>
-							<p><span>Wolfgang Männel</span>
-							<span>Founder and Managing Director, <a href="">Fotografen365</a></span>
+					
+							<span class="hero__article--author">Wolfgang Männel</span>
+							<p class="hero__article--position">Founder and Managing Director, <a href="#" class="hero__article--social">Fotografen365</a>
 							</p>
 						</div>
-						<div class="">
+						<div class="hero__article--img">
 							<img src="img/slider_img_1.png" alt="">
+						</div>
+					</article>
+					<article class="hero__article--item">
+						<div class="hero__article--text">
+							<p>I have worked with a number of software developers before but none of them quite reached the level of professionalism, diligence and enthusiasm that I experienced with Vitaliy and his team. They are incredibly easy to work with and almost always find great programming solutions to our requirements.</p>
+							<span class="hero__article--author">Wolfgang Männel</span>
+							<p class="hero__article--position">Founder and Managing Director, <a href="#" class="hero__article--social">Fotografen365</a>
+							</p>
+						</div>
+						<div class="hero__article--img">
+							<img src="img/slider_img_2.png" alt="">
+						</div>
+					</article>
+					<article class="hero__article--item">
+						<div class="hero__article--text">
+							<p>What I especially liked about the SoftFormance team is their passion and understanding for our project. It’s like working with friends. Friends that deliver on their promises. I have nothing but praise for the work of SoftFormance team and look forward to working with this agency in the future.</p>
+							<p>What for our project. It’s like working with friends. Friends that deliver on their promises. I have nothing but praise for the work of SoftFormance team and look forward to working with this agency in the future.</p>
+							<p>Friends that deliver on their promises. I have nothing but praise for the work of SoftFormance team and look forward to working with this agency in the future.</p>
+							<span class="hero__article--author">Wolfgang Männel</span>
+							<p class="hero__article--position">Founder and Managing Director, <a href="#" class="hero__article--social">Fotografen365</a>
+							</p>
+						</div>
+						<div class="hero__article--img">
+							<img src="img/slider_img_2.png" alt="">
 						</div>
 					</article>
 				</section>
@@ -38,5 +66,8 @@
 				<button type="button" class="feedback__btn">leave your feedback</button>
 			</section>
 		</main>
+		<script src="js/jquery-3.7.0.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/scripts.js"></script>
 	</body>
 </html>
