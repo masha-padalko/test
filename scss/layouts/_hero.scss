@@ -48,7 +48,7 @@
                 display: block;
                 width: 10px;
                 height: 20px;
-                background-image: url(../img/arrow.svg);
+                background-image: url(../img/icons/arrow.svg);
                 background-repeat: no-repeat;
             }
 
@@ -116,7 +116,7 @@
             top: 70px;
             width: 30px;
             height: 23px;
-            background-image: url(../img/qoutes.svg);
+            background-image: url(../img/icons/qoutes.svg);
 
             @include tablet {
                 top: 20px;
@@ -182,7 +182,6 @@
 
         @include mobile {
             flex-basis: auto;
-            height: 300px;
         }
     }
 
