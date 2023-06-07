@@ -17,7 +17,7 @@
 <p>Iphone 12 PRO Max Safari browser</p>
 
 <h2>Troubleshooting:</h2>
-<p>Image object-fit CSS rule on safari</p>
+<p>Image object-fit CSS rule in safari</p>
 <p>Responsive carousel height on mobile depend on content</p>
 
 
