@@ -1,0 +1,28 @@
+@use 'utils/vars';
+
+@use 'layouts/header';
+@use 'layouts/hero';
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
