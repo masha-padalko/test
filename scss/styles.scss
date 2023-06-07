@@ -1,39 +1,9 @@
 @use 'utils/vars';
+@use 'utils/common';
 
 @use 'vendors/slick-theme';
 @use 'vendors/slick';
 
 @use 'layouts/header';
 @use 'layouts/hero';
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    transition: all ease 0.3s;
-}
-
-img {
-    width: 100%;
-}
-
-body {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 20px;
-    line-height: 32px;
-}
-
-.container {
-    max-width: 1410px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+@use 'layouts/feedback';

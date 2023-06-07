@@ -1,7 +1,9 @@
 @use "../utils/mixins" as *;
 
 .hero {
-    padding: 40px 0 80px;
+    padding: 40px 20px 80px;
+    max-width: 1410px;
+    margin: 0 auto;
 
     &__heading {
         font-weight: 500;
@@ -22,6 +24,7 @@
         @include tablet {
             margin-bottom: 30px;
             font-size: 40px;
+            padding: 0 20px;
         }
         
     }
@@ -131,6 +134,7 @@
         font-weight: 700;
         font-size: 17px;
         line-height: 26px;
+        margin-top: 12px;
     }
 
     &__article--position {
@@ -179,6 +183,10 @@
         }
 
 
+    }
+
+    @include tablet {
+        padding: 20px 20px 80px;
     }
 
 }
