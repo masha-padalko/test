@@ -55,4 +55,8 @@
             background-color: #F59B65;
         }
     }
+
+    @include mobile {
+        padding: 40px 0;
+    }
 }

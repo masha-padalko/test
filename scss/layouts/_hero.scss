@@ -171,8 +171,10 @@
         img {
             object-fit: cover;
             object-position: center;
-            -webkit-object-fit: cover;
-            -webkit-object-position: center;
+
+            @include tablet {
+                height: 400px;
+            }
 
             @include mobile {
                 height: 300px;
@@ -190,6 +192,6 @@
     }
 
     @include tablet {
-        padding: 20px 20px 80px;
+        padding: 20px 20px 40px;
     }
 }
