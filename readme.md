@@ -24,6 +24,8 @@
 <h2>What could be improve:</h2>
 <p>Add GULP task for prefixes</p>
 <p>Fix slider blinking during sliding</p>
+<p>Fix 1px space under slider arrows</p>
+<p>Investigate why bottom: 0; doesn't work on slider arrows, must to set -27px</p>
 
 <h2>Spent time:</h2>
 <p>Pure: <b>5</b> working hours</p>
