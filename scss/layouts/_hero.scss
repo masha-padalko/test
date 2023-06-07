@@ -173,16 +173,19 @@
             object-position: center;
             -webkit-object-fit: cover;
             -webkit-object-position: center;
-            height: 300px;
-        }
 
-        @include mobile {
-            flex-basis: auto;
-            height: auto;
+            @include mobile {
+                height: 300px;
+            }
         }
 
         @include tablet {
             flex-basis: 300px;
+        }
+
+        @include mobile {
+            flex-basis: auto;
+            height: 300px;
         }
     }
 
