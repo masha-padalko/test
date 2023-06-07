@@ -25,6 +25,7 @@
 <p>Add GULP task for prefixes</p>
 <p>Fix slider blinking during sliding</p>
 <p>Fix 1px space under slider arrows</p>
+<p>Use tag picture or learn about webp format</p>
 <p>Investigate why bottom: 0; doesn't work on slider arrows, must to set -27px</p>
 
 <h2>Spent time:</h2>
