@@ -54,12 +54,8 @@
 
             @include tablet {
                 bottom: auto;
-                top: 20%;
+                top: 150px;
                 right: 20px;
-            }
-
-            @include mobile {
-                top: 15%;
             }
         }
 
@@ -71,7 +67,6 @@
             &::before {
                 transform:scaleX(-1);
             }
-            
 
             @include tablet {
                 left: 20px;
@@ -192,6 +187,6 @@
     }
 
     @include tablet {
-        padding: 20px 20px 40px;
+        padding: 20px;
     }
 }
