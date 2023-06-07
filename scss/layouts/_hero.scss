@@ -29,6 +29,7 @@
     }
 
     &__article {
+        min-height: 578px;
         .slick-prev,
         .slick-next {
             width: 55px;
@@ -58,7 +59,7 @@
             }
 
             @include mobile {
-                top: 18%;
+                top: 15%;
             }
         }
 
@@ -169,6 +170,7 @@
 
         img {
             object-fit: cover;
+            -webkit-object-fit: cover;
             height: 100%;
         }
 
